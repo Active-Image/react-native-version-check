@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.license      = package["license"]
   s.authors      = { "kimxogus" => "kgyoo8232@gmail.com" }
   s.platform     = :ios, "7.0"
+  s.tvos.deployment_target = "9.0"
 
   s.source       = { :git => package["repository"]["url"] }
 
